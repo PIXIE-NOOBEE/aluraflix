@@ -1,12 +1,33 @@
-# AluraFlix
-Página de catálogo de vídeos desenvolvido na unidade "Página Web: criando um catálogo de vídeos com HTML e CSS" da Alura Start.
+body {
+    background-color: #1D4221;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
 
-## Tecnologias utilizadas
-- HTML
-- CSS
+button {
+    background-color: #64A712;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+}
 
-## Acessando o código
-Para acessar o código referente às aulas, clique no seletor `main` do repositório e selecione a aula desejada.
+.passo {
+    display: none;
+}
 
-## Notas e créditos
-Feito por Guilherme Silveira, instrutor e fundador da Alura.
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
